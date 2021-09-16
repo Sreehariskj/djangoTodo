@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5&oz)nu0pplg=kwy+pwa_%zcq7fyotdhq3#r3_ojxdg*h6s1yf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','djangostodo.herokuapp.com/']
+ALLOWED_HOSTS = ['*','djangostodo.herokuapp.com/']
 
 
 # Application definition
@@ -123,6 +123,7 @@ STATIC_ROOT = 'static'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = ['todo/static']
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
