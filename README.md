@@ -2,7 +2,7 @@
 
 ### App link : https://djangostodo.herokuapp.com/
 
-##Features
+## Features
  *CRUD
  *Responsive
  
