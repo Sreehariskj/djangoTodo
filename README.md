@@ -1,6 +1,6 @@
-# DjangoTodo App
+# Django Todo App
 
-### App link : https://djangostodo.herokuapp.com/
+##### App link : https://djangostodo.herokuapp.com/
 
 ## Features
 * CRUD
